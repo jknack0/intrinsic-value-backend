@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "tsc": "tsc",
-    "dev": "ts-node-dev index.ts",
+    "dev": "ts-node-dev ./src/index.ts",
     "lint": "eslint --ext .ts .",
-    "test": "jest --verbose"
+    "test": "jest --verbose",
+    "start": "node build/index.js"
   },
   "author": "Jon Knack",
   "license": "ISC",
